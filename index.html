@@ -11,13 +11,22 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <style>
+      body {
+        background-image: url("img/1177136244533288258.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+    </style>
   </head>
   <body class="bg-dark">
-    <div class="container w-50 bg-secondary p-5 text-center mt-5">
-      <div><h4>Calculator</h4></div>
+    <div class="contain container w-50 bg-dark p-5 text-center mt-5">
+      <div><h4 class="text-white">Calculator</h4></div>
       <div class="row mt-2 me-1 ms-1">
         <input id="result" type="text" style="height: 25%; width:100%" class="form-control">
       </div>
+      <hr>
       <div class="row mt-2 me-1 ms-1">
         <button class="col-3 btn btn-info" onclick="displayData(7)" type="button">7</button>
         <button class="col-3 btn btn-info" onclick="displayData(8)" type="button">8</button>
